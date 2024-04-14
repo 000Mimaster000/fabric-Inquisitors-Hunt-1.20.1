@@ -2,6 +2,8 @@ package net.mimaster.inquisitorshunt;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mimaster.inquisitorshunt.item.ModItemGroups;
+import net.mimaster.inquisitorshunt.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class InquisitorsHunt implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
