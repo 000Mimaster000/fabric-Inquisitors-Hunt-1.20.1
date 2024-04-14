@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "inquisitorshunt",
+	"version": "${version}",
+	"name": "The Inquisitor's Hunt",
+	"description": "Mod about witches",
+	"authors": [
+		"000Mimaster000"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/inquisitorshunt/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.mimaster.inquisitorshunt.InquisitorsHunt"
+		],
+		"client": [
+          "net.mimaster.inquisitorshunt.InquisitorsHuntClient"
+		],
+		"fabric-datagen": [
+			"net.mimaster.inquisitorshunt.InquisitorsHuntDataGenerator"
+		]
+	},
+	"mixins": [
+		"inquisitorshunt.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
