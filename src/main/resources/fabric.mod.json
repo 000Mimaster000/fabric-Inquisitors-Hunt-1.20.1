@@ -3,13 +3,14 @@
 	"id": "inquisitorshunt",
 	"version": "${version}",
 	"name": "The Inquisitor's Hunt",
-	"description": "Mod about witches",
+	"description": "Immerse yourself in the Middle Ages, where the seeds of mysticism and religious conspiracies are ripening in rural settlements! Witches now pose a threat to the world's order...",
 	"authors": [
-		"000Mimaster000"
+		"000Mimaster000",
+		"Furtree24"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "-",
+		"sources": "https://github.com/000Mimaster000/fabric-Inquisitors-Hunt-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/inquisitorshunt/icon.png",
