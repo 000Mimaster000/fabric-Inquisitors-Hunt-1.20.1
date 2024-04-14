@@ -11,6 +11,6 @@ public class InquisitorsHunt implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Hello Minecraft world!");
 	}
 }
