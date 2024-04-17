@@ -12,9 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RZD = registerItem("train", new Item(new FabricItemSettings()));
+    public static final Item BEER = registerItem("beer", new Item(new FabricItemSettings().food(ModFoodComponents.BEER)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RZD);
+        entries.add(BEER);
     }
 
     private static Item registerItem(String name, Item item){
@@ -23,6 +26,6 @@ public class ModItems {
 
     public static void registerModItems(){
         InquisitorsHunt.LOGGER.info("Registering mod items for " + InquisitorsHunt.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

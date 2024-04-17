@@ -1,5 +1,19 @@
 {
   "item.inquisitorshunt.train": "Train",
+  "item.inquisitorshunt.beer": "Beer",
+  "item.minecraft.potion.effect.wither_potion": "Potion of withering",
+  "item.minecraft.potion.effect.long_wither_potion": "Potion of withering",
+  "item.minecraft.potion.effect.strong_wither_potion": "Potion of withering",
+  "item.minecraft.potion.effect.experience_potion": "Potion of experience",
+  "item.minecraft.splash_potion.effect.wither_potion": "Splash potion of withering",
+  "item.minecraft.splash_potion.effect.long_wither_potion": "Splash potion of withering",
+  "item.minecraft.splash_potion.effect.strong_wither_potion": "Splash potion of withering",
+  "item.minecraft.splash_potion.effect.experience_potion": "Splash potion of experience",
+  "item.minecraft.lingering_potion.effect.wither_potion": "Lingering potion of withering",
+  "item.minecraft.lingering_potion.effect.long_wither_potion": "Lingering potion of withering",
+  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Lingering potion of withering",
+  "item.minecraft.lingering_potion.effect.experience_potion": "Lingering potion of experience",
 
-  "itemgroup.train": "The Inquisitor's Hunt"
+  "itemgroup.group": "The Inquisitor's Hunt",
+  "effect.inquisitorshunt.experience": "Burst of experience"
 }

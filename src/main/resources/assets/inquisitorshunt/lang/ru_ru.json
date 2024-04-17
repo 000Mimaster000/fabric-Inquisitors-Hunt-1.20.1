@@ -1,5 +1,19 @@
 {
   "item.inquisitorshunt.train": "Поезд РЖД",
+  "item.inquisitorshunt.beer": "Пивко",
+  "item.minecraft.potion.effect.wither_potion": "Зелье иссушения",
+  "item.minecraft.potion.effect.long_wither_potion": "Зелье иссушения",
+  "item.minecraft.potion.effect.strong_wither_potion": "Зелье иссушения",
+  "item.minecraft.potion.effect.experience_potion": "Зелье опыта",
+  "item.minecraft.splash_potion.effect.wither_potion": "Взрывное зелье иссушения",
+  "item.minecraft.splash_potion.effect.long_wither_potion": "Взрывное зелье иссушения",
+  "item.minecraft.splash_potion.effect.strong_wither_potion": "Взрывное зелье иссушения",
+  "item.minecraft.splash_potion.effect.experience_potion": "Взрывное зелье опыта",
+  "item.minecraft.lingering_potion.effect.wither_potion": "Туманное зелье иссушения",
+  "item.minecraft.lingering_potion.effect.long_wither_potion": "Туманное зелье иссушения",
+  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Туманное зелье иссушения",
+  "item.minecraft.lingering_potion.effect.experience_potion": "Туманное зелье опыта",
 
-  "itemgroup.train": "Охота на ведьм"
+  "itemgroup.group": "Охота на ведьм",
+  "effect.inquisitorshunt.experience": "Прилив опыта"
 }
