@@ -8,6 +8,8 @@ import net.mimaster.inquisitorshunt.item.ModItems;
 import net.mimaster.inquisitorshunt.potions.ModPotions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib.GeckoLib;
+
 
 public class InquisitorsHunt implements ModInitializer {
 	public static final String MOD_ID = "inquisitorshunt";
@@ -20,5 +22,6 @@ public class InquisitorsHunt implements ModInitializer {
 		ModStatusEffect.registerEffects();
 		ModPotions.registerPotions();
 		ModPotions.registerPotionsRecipes();
+		GeckoLib.initialize();
 	}
 }
